@@ -1,0 +1,1 @@
+import { InferSchemaType, model, Schema } from "mongoose";
