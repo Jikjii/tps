@@ -1,0 +1,3 @@
+import panelReducer, {
+
+} from './panelSlice'
