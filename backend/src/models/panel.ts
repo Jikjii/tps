@@ -8,5 +8,9 @@ const panelSchema = new Schema(
     likes: { type: Array, default: [] },
     comments: { type: Array, default: [] },
   },
-  { timestamps: true}
+  { timestamps: true }
 );
+
+type Panel = InferSchemaType<typeof panelSchema>;
+
+export default model<Panel>("Panel", panelSchema);
