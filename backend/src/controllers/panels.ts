@@ -39,3 +39,20 @@ export const getPanel: RequestHandler = async (req, res, next) => {
     next(error);
   }
 };
+
+// Update one panel
+
+export const updatePanel: RequestHandler = async (req, res, next) => {
+  // GET REQ
+  const panelId = req.params.panelId;
+
+  // POST REQ
+}
+
+
+
+// Delete one panel
+
+// Add auth for the rest of th eusers
+
+
