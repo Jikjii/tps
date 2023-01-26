@@ -14,3 +14,5 @@ export const getPanels = createAsyncThunk("api/panels", async () => {
 });
 
 // export const deletePanel = createAsyncThunk("api/panels")
+
+// export const deletepanel = createAsyncThunk("api/panels")

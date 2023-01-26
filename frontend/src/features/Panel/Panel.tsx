@@ -19,6 +19,12 @@ export const Panel: React.FC = () => {
 
   const [panels, setPanels] = useState<PanelModel>([] as any);
 
+  //  TODO add validation to the user auth
+
+  // TODO add the toast effect
+
+  
+
   return (
     <div className="columns-3 space-y-3">
       {panelList?.map((panel: PanelModel, index: number) => {

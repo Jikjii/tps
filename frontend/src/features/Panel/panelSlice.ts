@@ -33,6 +33,9 @@ export const panelSlice = createSlice({
       state.list.status = "failed";
       state.list.isLoading = false;
     },
+    // TODO: Add extra resolver
+
+    
   },
 });
 
